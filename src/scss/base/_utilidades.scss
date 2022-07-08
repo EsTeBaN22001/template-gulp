@@ -1,0 +1,32 @@
+.container {
+    width: 85%;
+    max-width: 120rem;
+    margin: 0 auto;
+  
+    @include telefono {
+      & {
+        width: 98%;
+      }
+    }
+    @include tablet {
+      & {
+        width: 90%;
+      }
+    }
+  }
+  
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .intSection {
+    padding: 1.5rem 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
